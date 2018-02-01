@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo.Dominio", "IntegracaoCielo.Dominio", "{274F2D2A-FF5E-4A5E-85F1-D616973AAA28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo.Aplicacao", "IntegracaoCielo.Aplicacao", "{4386DAC0-3491-4EBE-AADB-54B96D3AD469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo.Servico", "IntegracaoCielo.Servico", "{1E7FF6E7-5898-4FCD-888F-1346148B62B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo.Infraestrutura", "IntegracaoCielo.Infraestrutura", "{86B73279-5C67-4792-A838-812AF89BEF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoCielo.Aplicacao", "IntegracaoCielo.Aplicacao\IntegracaoCielo.Aplicacao.csproj", "{03D52BE0-85B1-4AAA-803D-B83AC7DA885C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoCielo.Dominio", "IntegracaoCielo.Dominio\IntegracaoCielo.Dominio.csproj", "{C0320AF2-BBD8-4E0F-9E60-15DB907757FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoCielo.Infraestrutura", "IntegracaoCielo.Infraestrutura\IntegracaoCielo.Infraestrutura.csproj", "{EA54FFAD-0F67-4B09-977D-97F072A16431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoCielo.Servico", "IntegracaoCielo.Servico\IntegracaoCielo.Servico.csproj", "{B6168C56-E6C5-4E90-846F-A025797A6117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo", "IntegracaoCielo", "{9E52A2B2-BC17-4C24-9396-A40FF7742016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoCielo.Apresentacao", "IntegracaoCielo.Apresentacao\IntegracaoCielo.Apresentacao.csproj", "{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo.Artefatos_Documentacao", "IntegracaoCielo.Artefatos_Documentacao", "{F6392004-0442-412C-A732-4F6FE8705EF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D52BE0-85B1-4AAA-803D-B83AC7DA885C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D52BE0-85B1-4AAA-803D-B83AC7DA885C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D52BE0-85B1-4AAA-803D-B83AC7DA885C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D52BE0-85B1-4AAA-803D-B83AC7DA885C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0320AF2-BBD8-4E0F-9E60-15DB907757FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0320AF2-BBD8-4E0F-9E60-15DB907757FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0320AF2-BBD8-4E0F-9E60-15DB907757FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0320AF2-BBD8-4E0F-9E60-15DB907757FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA54FFAD-0F67-4B09-977D-97F072A16431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA54FFAD-0F67-4B09-977D-97F072A16431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA54FFAD-0F67-4B09-977D-97F072A16431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA54FFAD-0F67-4B09-977D-97F072A16431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6168C56-E6C5-4E90-846F-A025797A6117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6168C56-E6C5-4E90-846F-A025797A6117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6168C56-E6C5-4E90-846F-A025797A6117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6168C56-E6C5-4E90-846F-A025797A6117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03D52BE0-85B1-4AAA-803D-B83AC7DA885C} = {4386DAC0-3491-4EBE-AADB-54B96D3AD469}
+		{C0320AF2-BBD8-4E0F-9E60-15DB907757FB} = {274F2D2A-FF5E-4A5E-85F1-D616973AAA28}
+		{EA54FFAD-0F67-4B09-977D-97F072A16431} = {86B73279-5C67-4792-A838-812AF89BEF3E}
+		{B6168C56-E6C5-4E90-846F-A025797A6117} = {1E7FF6E7-5898-4FCD-888F-1346148B62B0}
+		{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE} = {9E52A2B2-BC17-4C24-9396-A40FF7742016}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B6638CD-B927-451E-8D42-6989D03BE674}
+	EndGlobalSection
+EndGlobal
