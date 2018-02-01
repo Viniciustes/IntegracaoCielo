@@ -1,7 +1,7 @@
-﻿using SimpleInjector.Integration.Web.Mvc;
-using SimpleInjectorExample.SimpleInjector;
+﻿using IntegracaoCielo.Apresentacao.App_Start;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Optimization;
 using System.Web.Routing;
 
 namespace IntegracaoCielo.Apresentacao
@@ -12,9 +12,6 @@ namespace IntegracaoCielo.Apresentacao
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-
-            //Configuração "startup" do SimpleInjector
-            DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(SimpleInjectorContainerConfig.Config()));
         }
     }
 }

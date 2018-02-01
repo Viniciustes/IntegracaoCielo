@@ -3,7 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Integration Application</title>
+    <title>@ViewBag.Title - Integração Cielo</title>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-toggleable-md navbar-light navbar-fixed-top bg-primary">
@@ -14,12 +19,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Integration", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Integration", "Index", "Cielo", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Cartões", "Index", "CartaoCielo")</li>
+                    <li>@Html.ActionLink("Home", "Index", "Cielo")</li>
                 </ul>
             </div>
         </div>
@@ -28,11 +32,9 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Integration Application</p>
+            <p>&copy; @DateTime.Now.Year - Integração Cielo</p>
         </footer>
     </div>
-
-  
     @RenderSection("scripts", required: false)
 </body>
 </html>
