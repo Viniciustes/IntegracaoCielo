@@ -4,6 +4,10 @@ namespace IntegracaoCielo.Dominio.Entidades
 {
     public class ArquivoCielo
     {
+        public ArquivoCielo()
+        {
+
+        }
         public ArquivoCielo(string nomeArquivo, string tipoArquivo)
         {
             Id = Guid.NewGuid();

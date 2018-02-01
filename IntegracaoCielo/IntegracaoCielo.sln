@@ -26,6 +26,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DocumentosArtefatos", "DocumentosArtefatos", "{03AF5858-E287-42D6-AF3A-9B2892B1948A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Scripts", "SQL Scripts", "{1C81A2FA-12CC-4D91-B48E-D5B09711DA6E}"
+	ProjectSection(SolutionItems) = preProject
+		CreateInitialDB.sql = CreateInitialDB.sql
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArquivoRetorno", "ArquivoRetorno", "{B4CCBD59-D467-43EE-BD03-EEDD859B7418}"
 EndProject

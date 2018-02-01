@@ -1,4 +1,5 @@
 ﻿using IntegracaoCielo.Aplicacao.Interfaces;
+using System;
 using System.Web.Mvc;
 
 namespace IntegracaoCielo.Apresentacao.Controllers
@@ -15,8 +16,31 @@ namespace IntegracaoCielo.Apresentacao.Controllers
         // GET: Cielo
         public ActionResult Index()
         {
-            _appServicoCartaoCielo.ObterTodos();
-            _appServicoCartaoCielo.AdicionarProcessarArquivo(null);
+            var listaArquivosCielo =_appServicoCartaoCielo.ObterTodos();
+            return View(listaArquivosCielo);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult AdicionarArquivo()
+        {
+            var files = Request.Files;
+
+            if (files.Count <= 0) return RedirectToAction("MostraErro");
+
+            var adicionou = _appServicoCartaoCielo.AdicionarProcessarArquivo(files);
+
+            return adicionou ? RedirectToAction("Index") : RedirectToAction("MostraErro");
+        }
+
+        public ActionResult ProcessarArquivo(Guid id)
+        {
+            _appServicoCartaoCielo.ProcessarArquivo(id);
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult MostraErro()
+        {
             return View();
         }
     }
