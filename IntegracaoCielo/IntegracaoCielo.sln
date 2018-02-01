@@ -23,11 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo", "Integrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoCielo.Apresentacao", "IntegracaoCielo.Apresentacao\IntegracaoCielo.Apresentacao.csproj", "{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivos_Artefatos", "Arquivos_Artefatos", "{3D05CCE7-AE17-4726-A36B-B2FA3CF20965}"
-	ProjectSection(SolutionItems) = preProject
-		Documentacao_Artefatos\Extrato Eletronico V11.pdf = Documentacao_Artefatos\Extrato Eletronico V11.pdf
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

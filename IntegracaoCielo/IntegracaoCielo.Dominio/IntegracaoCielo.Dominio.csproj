@@ -30,11 +30,26 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FileHelpers, Version=3.2.7.0, Culture=neutral, PublicKeyToken=3e0c08d59cc3d657, processorArchitecture=MSIL">
+      <HintPath>..\packages\FileHelpers.3.2.7\lib\net45\FileHelpers.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entidades\ArquivoCielo.cs" />
+    <Compile Include="Entidades\ArquivoCieloCabecalho.cs" />
+    <Compile Include="Entidades\ArquivoCieloDetalhes.cs" />
+    <Compile Include="Entidades\ArquivoCieloDetalhesCv.cs" />
+    <Compile Include="Entidades\ArquivoCieloRm.cs" />
+    <Compile Include="Entidades\ArquivoCieloTrailer.cs" />
+    <Compile Include="Interfaces\Repositorios\IRepositorioCartaoCielo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
