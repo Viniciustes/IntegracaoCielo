@@ -39,6 +39,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Scripts", "SQL Scripts"
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArquivoRetorno", "ArquivoRetorno", "{B4CCBD59-D467-43EE-BD03-EEDD859B7418}"
+	ProjectSection(SolutionItems) = preProject
+		DocumentosArtefatos\ArquivoRetorno\EXTVISA120217.cmp = DocumentosArtefatos\ArquivoRetorno\EXTVISA120217.cmp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
