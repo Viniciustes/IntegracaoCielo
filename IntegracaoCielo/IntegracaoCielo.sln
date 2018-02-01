@@ -23,8 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo", "Integrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegracaoCielo.Apresentacao", "IntegracaoCielo.Apresentacao\IntegracaoCielo.Apresentacao.csproj", "{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegracaoCielo.Artefatos_Documentacao", "IntegracaoCielo.Artefatos_Documentacao", "{F6392004-0442-412C-A732-4F6FE8705EF1}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
