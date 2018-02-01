@@ -26,17 +26,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquivos_Artefatos", "Arquivos_Artefatos", "{3D05CCE7-AE17-4726-A36B-B2FA3CF20965}"
 	ProjectSection(SolutionItems) = preProject
 		Documentacao_Artefatos\Extrato Eletronico V11.pdf = Documentacao_Artefatos\Extrato Eletronico V11.pdf
-		..\..\..\..\Documents\CTJ - Projects\CTJIntegracao\CTJIntegracao\FilesUploads\EXTVISA120217.cmp = ..\..\..\..\Documents\CTJ - Projects\CTJIntegracao\CTJIntegracao\FilesUploads\EXTVISA120217.cmp
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArquivosRetorno", "ArquivosRetorno", "{8A05A9D7-2730-4060-8944-6B9519EEDA7E}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Documents\CTJ - Projects\CTJIntegracao\CTJIntegracao\FilesUploads\EXTVISA120217.cmp = ..\..\..\..\Documents\CTJ - Projects\CTJIntegracao\CTJIntegracao\FilesUploads\EXTVISA120217.cmp
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Scripts", "SQL Scripts", "{28BB2E48-5B35-4FFE-94C0-12276FAABC3C}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Documents\CTJ - Projects\CTJIntegration\SQL Scripts\Criação Inicial Banco De Dados.sql = ..\..\..\..\Documents\CTJ - Projects\CTJIntegration\SQL Scripts\Criação Inicial Banco De Dados.sql
 	EndProjectSection
 EndProject
 Global
@@ -75,8 +64,6 @@ Global
 		{EA54FFAD-0F67-4B09-977D-97F072A16431} = {86B73279-5C67-4792-A838-812AF89BEF3E}
 		{B6168C56-E6C5-4E90-846F-A025797A6117} = {1E7FF6E7-5898-4FCD-888F-1346148B62B0}
 		{5B36E3F4-9FF7-4052-AC2C-DB281DD84EAE} = {9E52A2B2-BC17-4C24-9396-A40FF7742016}
-		{8A05A9D7-2730-4060-8944-6B9519EEDA7E} = {3D05CCE7-AE17-4726-A36B-B2FA3CF20965}
-		{28BB2E48-5B35-4FFE-94C0-12276FAABC3C} = {3D05CCE7-AE17-4726-A36B-B2FA3CF20965}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B6638CD-B927-451E-8D42-6989D03BE674}
